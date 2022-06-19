@@ -9,6 +9,67 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-      
+    <div class="visible">
+      <h1>Today's Weather</h1>
+      <form class="form">
+        <input type="text" id="search" placeholder="Search for a city.." />
+      </form>
+    </div>
+
+    <br />
+
+    <div class="weather-info">
+      <div class="temp-container">
+        <button class="temperature-toggle">Change Temp Format</button>
+      </div>
+      <div class="top-half">
+        <div class="column-1">
+          <div class="city-location"></div>
+          <div class="country-location"></div>
+          <div class="date"></div>
+          <br />
+          <div class="weather-title">Weather:</div>
+          <div class="weather-description"></div>
+          <br>
+          <div class="temperature">Temperature:</div>
+          <div class="default-temperature"></div>
+          <div class="feels-like">Feels Like:</div>
+          <div class="flDefault-temperature"></div>
+        </div>
+        <div class="column-2">
+          <div class="sunrise-time">Sunrise:</div>
+          <div class="sunrise"></div>
+          <div class="sunset-time">Sunset:</div>
+          <div class="sunset"></div>
+          <div class="weather"></div>
+          <div class="windspd">Wind Speed:</div>
+          <div class="wind-speed"></div>
+        </div>
+      </div>
+      <br />
+      <div class="daily-forecast-title">Daily Forecast</div>
+      <div class="daily">
+        <div class="tomorrow">
+          <div class="day1-title dayTitle"></div>
+          <div class="day1 dtemp"></div>
+        </div>
+        <div class="nextday-1">
+          <div class="day2-title dayTitle"></div>
+          <div class="day2 dtemp"></div>
+        </div>
+        <div class="nextday-2">
+          <div class="day3-title dayTitle"></div>
+          <div class="day3 dtemp"></div>
+        </div>
+        <div class="nextday-3">
+          <div class="day4-title dayTitle"></div>
+          <div class="day4 dtemp"></div>
+        </div>
+        <div class="nextday-4">
+          <div class="day5-title dayTitle"></div>
+          <div class="day5 dtemp"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
